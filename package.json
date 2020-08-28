@@ -60,9 +60,7 @@
     ]
   },
   "lint-staged": {
-    "hello": "yarn lint:style",
-    "./src/**/*.js": "eslint src/**/*.{js,jsx,ts,tsx} --fix",
-    "./src/**/*.{js,jsx,ts,tsx,md,html,css,scss}": "npx prettier --write"
+    "./src/**/*.scss": "yarn lint:style"
   },
   "husky": {
     "hooks": {

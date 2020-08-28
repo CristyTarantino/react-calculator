@@ -38,7 +38,8 @@
     "eslint-plugin-react-hooks": "^4.1.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.13",
-    "prettier": "^2.1.1"
+    "prettier": "^2.1.1",
+    "stylelint": "^13.6.1"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -57,7 +58,8 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
-    "*.js": "eslint --fix"
+    "*.js": "eslint --fix",
+    "*.scss": "stylelint --syntax=scss"
   },
   "husky": {
     "hooks": {

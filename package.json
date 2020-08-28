@@ -62,7 +62,7 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,html,css,scss}": "npx prettier --write",
     "*.js": "eslint src/**/*.{js,jsx,ts,tsx} --fix",
-    "*.scss": "stylelint --syntax=scss"
+    "*.scss": "stylelint --syntax=scss --fix"
   },
   "husky": {
     "hooks": {

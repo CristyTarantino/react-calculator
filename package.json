@@ -70,9 +70,6 @@
     "src/**/*.{ts,tsx}": [
       "eslint --ext .tsx --ext .ts src/ --fix"
     ],
-    "src/**/*.scss": [
-      "stylelint \"src/**/*.{css,scss}\" --fix"
-    ],
     "./src/**": [
       "prettier --write ."
     ]

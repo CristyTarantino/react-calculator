@@ -60,9 +60,9 @@
     ]
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
-    "src/**/*.js": "eslint --fix",
-    "src/**/*.scss": "stylelint --syntax=scss"
+    "./src/**/*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
+    "./src/**/*.js": "eslint --fix",
+    "./src/**/*.scss": "stylelint --syntax=scss --fix"
   },
   "husky": {
     "hooks": {

@@ -60,7 +60,7 @@
     ]
   },
   "lint-staged": {
-    "./src/**/*.scss": "yarn lint:style"
+    "src/**/*.scss": "yarn lint:style"
   },
   "husky": {
     "hooks": {

@@ -8,7 +8,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/*.ts{,x}",
-    "lint": "tsc --noEmit && eslint src/**/*.ts{,x}"
+    "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
+    "lint:style": "stylelint './**/*.scss' --syntax=scss --fix"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -39,7 +40,9 @@
     "husky": "^4.2.5",
     "lint-staged": "^10.2.13",
     "prettier": "^2.1.1",
-    "stylelint": "^13.6.1"
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
   },
   "eslintConfig": {
     "extends": "react-app"

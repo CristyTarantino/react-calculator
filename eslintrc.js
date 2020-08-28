@@ -7,7 +7,6 @@ module.exports = {
     "prettier",
     "prettier/react",
     "prettier/@typescript-eslint",
-    "airbnb-typescript-prettier",
     "plugin:prettier/recommended",
   ],
   plugins: ["react", "@typescript-eslint", "jest"],

@@ -67,11 +67,20 @@
     ]
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "eslint --ext .tsx --ext .ts src/ --fix"
+    "*.scss": [
+      "prettier --write",
+      "stylelint --fix",
+      "git add"
     ],
-    "./src/**": [
-      "prettier --write ."
+    "*.{ts,tsx}": [
+      "react-scripts test --findRelatedTests",
+      "eslint --ext .ts,.tsx",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{json,md}": [
+      "prettier --write",
+      "git add"
     ]
   },
   "husky": {

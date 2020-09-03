@@ -1,7 +1,8 @@
 {
-  "name": "my-app-2",
+  "name": "react-calculator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cristytarantino.github.io/react-calculator",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
